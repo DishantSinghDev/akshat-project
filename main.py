@@ -42,9 +42,7 @@ def display_all_words(dictionary):
             print(f"- {word}")
 
 def main():
-    file_path = '
-    
-    data.json'
+    file_path = 'data.json'
     dictionary = load_data(file_path)
 
     while True:
